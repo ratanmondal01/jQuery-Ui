@@ -1,0 +1,55 @@
+#draggable {
+ width: 150px;
+ height: 150px;
+ padding: 0.5em;
+ background-color: lightblue;
+  }
+.c-d{
+	overflow: hidden;
+}
+  #draggables { 
+  	width: 100px;
+  	 height: 100px;
+  	 padding: 0.5em;
+  	 float: left; 
+  	 margin: 10px 10px 10px 0; }
+  #droppable { 
+  	 width: 150px;
+  	 height: 150px;
+  	 padding: 0.5em;
+  	 float: left;
+  	 margin: 10px; }
+
+
+  #resizable { 
+  	width: 200px; 
+  	height: 200px; 
+  	padding: 0.5em; }
+  #resizable h3 { 
+  	text-align: center; 
+  	margin: 0; }
+
+
+.custom-colorize {
+    font-size: 20px;
+    position: relative;
+    width: 75px;
+    height: 75px;
+  }
+  .custom-colorize-changer {
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+      fieldset {
+      border: 0;
+    }
+    label {
+      display: block;
+      margin: 30px 0 0 0;
+    }
+    .overflow {
+      height: 200px;
+    }

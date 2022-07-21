@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="jQuery">
+    <meta name="description" content="Personal Protfolio">
+    <meta name="keywords" content="html, html tutorial, html video, html table">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="5 days">
+    <meta name="author" content="Ratan Mondal">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="icons/icon.css/all.min.css">
+    <link rel="stylesheet" href="icons/icon.css/fontawesome.min.css">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title> jQuery </title>
+  </head>
+  <body>
+    
+    <div class="container">
+      <h1>Draggable</h1>
+      <div id="draggable" class="ui-widget-content">
+        <p>Lorem ipsum, dolor sit amet.</p>
+      </div>
+    </div>
+    <div class="container c-d">
+      <h1>Droppable</h1>
+      <div id="draggables" class="ui-widget-content">
+        <p>Drag me to my target</p>
+      </div>
+      
+      <div id="droppable" class="ui-widget-header">
+        
+      </div>
+    </div>
+    <div class="container">
+      <h1>Resizable</h1>
+      <div id="resizable" class="ui-widget-content">
+        <h3 class="ui-widget-header">Resizable</h3>
+      </div>
+    </div>
+    <div class="container">
+      <h1>accordion</h1>
+      <div id="accordion">
+        <h3>Section 1</h3>
+        <div>
+          <p>
+            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+          </p>
+        </div>
+        <h3>Section 2</h3>
+        <div>
+          <p>
+            Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+            purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+            velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+            suscipit faucibus urna.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h1>Autocomplete</h1>
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <form action="#">
+            <label for="#" class="form-label my-2"> Submit your course Topics</label>
+            <input type="text" class=" form-control my-2" id="tags">
+            <button type="submit" class="btn btn-dark my-2 w-100">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h1>Checkboxradio</h1>
+      <div class="widget">
+        <h1>Checkbox and radio button widgets</h1>
+        
+        <h2>Radio Group</h2>
+        <fieldset>
+          <legend>Select a Location: </legend>
+          <label for="radio-1">New York</label>
+          <input type="radio" name="radio-1" id="radio-1">
+          <label for="radio-2">Paris</label>
+          <input type="radio" name="radio-1" id="radio-2">
+          <label for="radio-3">London</label>
+          <input type="radio" name="radio-1" id="radio-3">
+        </fieldset>
+        
+        <h2>Checkbox</h2>
+        <fieldset>
+          <legend>Hotel Ratings: </legend>
+          <label for="checkbox-1">2 Star</label>
+          <input type="checkbox" name="checkbox-1" id="checkbox-1">
+          <label for="checkbox-2">3 Star</label>
+          <input type="checkbox" name="checkbox-2" id="checkbox-2">
+          <label for="checkbox-3">4 Star</label>
+          <input type="checkbox" name="checkbox-3" id="checkbox-3">
+          <label for="checkbox-4">5 Star</label>
+          <input type="checkbox" name="checkbox-4" id="checkbox-4">
+        </fieldset>
+        
+        <h2>Checkbox nested in label</h2>
+        <fieldset>
+          <legend>Bed Type: </legend>
+          <label for="checkbox-nested-1">2 Double
+            <input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1">
+          </label>
+          <label for="checkbox-nested-2">2 Queen
+            <input type="checkbox" name="checkbox-nested-2" id="checkbox-nested-2">
+          </label>
+          <label for="checkbox-nested-3">1 Queen
+            <input type="checkbox" name="checkbox-nested-3" id="checkbox-nested-3">
+          </label>
+          <label for="checkbox-nested-4">1 King
+            <input type="checkbox" name="checkbox-nested-4" id="checkbox-nested-4">
+          </label>
+        </fieldset>
+      </div>
+    </div>
+    <div class="container">
+      <h1>Date picker</h1>
+      <p>Date: <input type="text" id="datepicker"></p>
+      <h2>progressbar</h2>
+      <div id="progressbar"></div>
+    </div>
+    <div class="container">
+      <h1>Tab</h1>
+      <div id="tabs">
+        <ul>
+          <li><a href="#tabs-1">Nunc tincidunt</a></li>
+          <li><a href="#tabs-2">Proin dolor</a></li>
+          <li><a href="#tabs-3">Aenean lacinia</a></li>
+        </ul>
+        <div id="tabs-1">
+          <div class="row">
+            <div class="col-lg-3">
+              <img src="img/card.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3">
+              <img src="img/card.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3">
+              <img src="img/card.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3">
+              <img src="img/card.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+        <div id="tabs-2">
+          <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        </div>
+        <div id="tabs-3">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+          <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div>
+        <div id="my-widget1">color me</div>
+        <div id="my-widget2">color me</div>
+        <div id="my-widget3">color me</div>
+        <button id="disable">Toggle disabled option</button>
+        <button id="green">Go green</button>
+      </div>
+    </div>
+     <div class="container">
+       <div class="demo mb-5">
+ 
+<form action="#">
+ 
+  <fieldset>
+    <label for="speed">Select a speed</label>
+    <select name="speed" id="speed">
+      <option>Slower</option>
+      <option>Slow</option>
+      <option selected="selected">Medium</option>
+      <option>Fast</option>
+      <option>Faster</option>
+    </select>
+ 
+    <label for="files">Select a file</label>
+    <select name="files" id="files">
+      <optgroup label="Scripts">
+        <option value="jquery">jQuery.js</option>
+        <option value="jqueryui">ui.jQuery.js</option>
+      </optgroup>
+      <optgroup label="Other files">
+        <option value="somefile">Some unknown file</option>
+        <option value="someotherfile">Some other file with a very long option text</option>
+      </optgroup>
+    </select>
+ 
+    <label for="number">Select a number</label>
+    <select name="number" id="number">
+      <option>1</option>
+      <option selected="selected">2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+      <option>10</option>
+      <option>11</option>
+      <option>12</option>
+      <option>13</option>
+      <option>14</option>
+      <option>15</option>
+      <option>16</option>
+      <option>17</option>
+      <option>18</option>
+      <option>19</option>
+    </select>
+ 
+    <label for="salutation">Select a title</label>
+    <select name="salutation" id="salutation">
+      <option disabled selected>Please pick one</option>
+      <option>Mr.</option>
+      <option>Mrs.</option>
+      <option>Dr.</option>
+      <option>Prof.</option>
+      <option>Other</option>
+    </select>
+  </fieldset>
+ 
+</form>
+ 
+</div>
+     </div>
+    
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
